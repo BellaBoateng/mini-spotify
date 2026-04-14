@@ -41,8 +41,9 @@ mini-spotify/
 
 ---
 
-## Next Steps
+## Progress Update
 
-- Connect landing page to app UI  
-- Add JavaScript interactions  
-- Convert Python logic to Flask backend  
+- Built landing page (HTML/CSS)
+- Created app interface (app.html)
+- Implemented live search with JavaScript
+- Added dynamic playlist creation UI
