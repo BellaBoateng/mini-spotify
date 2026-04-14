@@ -1,0 +1,213 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(180deg, #121212 0%, #181818 55%, #0f0f0f 100%); 
+      color: #ffffff;
+      min-height: 100vh;
+    }
+
+    /* Class for navigation bar and components: */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(8px);
+      background: rgba(18, 18, 18, 0.8);
+    }
+
+    /* Mini Spotify + music note */
+    .logo {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #1ed760;
+    }
+    /* Elements on the navigation bar */
+    .nav-links {
+      display: flex;
+      gap: 1.2rem;
+      list-style: none;
+      color: #d1d1d1;
+      font-size: 0.95rem;
+    }
+
+    /* Class for hero and compoenents: */ 
+    .hero {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 2rem;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 5rem 2rem 4rem;
+    }
+    
+    /* Hero header */ 
+    .hero-text h1 {
+      font-size: 3.8rem;
+      line-height: 1.05;
+      margin-bottom: 1rem;
+    }
+    /* Hero text */
+    .hero-text p {
+      color: #c8c8c8;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      max-width: 600px;
+      margin-bottom: 1.8rem;
+    }
+
+    /* Class for buttons and compoenets: */
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.95rem 1.4rem;
+      border-radius: 999px;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    /* Hover effect - lift the button slughty */
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.95;
+    }
+
+    /* Primary button style - spotify green */
+    .btn-primary {
+      background: #1ed760;
+      color: #111111;
+      font-weight: bold;
+    }
+
+     /* Secondary button style - blakc and white */
+    .btn-secondary {
+      background: transparent;
+      color: #ffffff;
+      border: 1px solid rgba(255,255,255,0.25);
+    }
+
+    /* Nested card components: */
+    .hero-card {
+      background: linear-gradient(180deg, rgba(30,215,96,0.18), rgba(255,255,255,0.04));
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 28px;
+      padding: 1.5rem;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      color: #d9d9d9;
+      font-size: 0.95rem;
+    }
+
+    .playlist-box {
+      background: rgba(255,255,255,0.05);
+      border-radius: 20px;
+      padding: 1.2rem;
+    }
+
+    .playlist-box h3 {
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
+
+    /* Song class and components: */
+    .song {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.9rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .song:last-child {
+      border-bottom: none;
+    }
+
+    /* Tile of a song */
+    .song-info p:first-child {
+      font-weight: bold;
+      margin-bottom: 0.2rem;
+    }
+
+    /* Artist */
+    .song-info p:last-child {
+      color: #b8b8b8;
+      font-size: 0.92rem;
+    }
+
+    /* Tag to indicate genre of a song */
+    .tag {
+      color: #1ed760;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+
+
+    /* Features */
+    .features {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+
+    /* FEatures section heading */
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Create 3 column grid */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.2rem;
+    }
+
+    /* Card layout */
+    .feature-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 22px;
+      padding: 1.5rem;
+    }
+
+    /* Card heading */
+    .feature-card h3 {
+      margin-bottom: 0.8rem;
+      font-size: 1.15rem;
+    }
+
+    /* Card text */
+    .feature-card p {
+      color: #c7c7c7;
+      line-height: 1.6;
+    }
+
+     /* Footer */
+     .footer {
+      text-align: center;
+      padding: 2rem;
+      color: #8d8d8d;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
