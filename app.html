@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Spotify App</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">♫ Mini Spotify</div>
+    </nav>
+
+    <section class="app-container">
+
+        <h1 class="app-title">Your Music Library</h1>
+
+
+        <input type="text" placeholder="Search songs..." class="search-bar" />
+
+        <div class="app-layout">
+
+            <div class="library-panel">
+                <h2 class="panel-heading">Songs</h2>
+
+                <div class="song-list">
+
+                    <div class="song-card">
+                        <p class="song-title">In Fact</p>
+                        <p class="song-artist">Gabzy</p>
+                    </div>
+
+                    <div class="song-card">
+                        <p class="song-title">On the Low</p>
+                        <p class="song-artist">Burna Boy</p>
+                    </div>
+
+                    <div class="song-card">
+                        <p class="song-title">Free Mind</p>
+                        <p class="song-artist">Tems</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="playlist-panel">
+                <h2 class="panel-heading">Playlists</h2>
+
+                <div class="playlist-input">
+                    <input type="text" placeholder="New playlist name..." class="playlist-name-input" />
+                    <button class="create-playlist-btn">Create</button>
+                </div>
+
+                <div class="playlist-list">
+
+                    <div class="playlist-card">
+                    <p class="playlist-name">Afrobeats Mix</p>
+                    <p class="playlist-count">2 songs</p>
+                </div>
+
+                <div class="playlist-card">
+                    <p class="playlist-name">Late Night</p>
+                    <p class="playlist-count">1 song</p>
+                </div>
+
+                <div class="playlist-card">
+                    <p class="playlist-name">Study Vibes</p>
+                    <p class="playlist-count">0 songs</p>
+                </div>
+
+                </div>
+
+            
+            </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
