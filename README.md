@@ -30,17 +30,6 @@ JavaScript (in progress)
 
 ---
 
-## Project Structure
-
-mini-spotify/
-│
-├── index.html
-├── styles.css
-├── main.py
-└── README.md
-
----
-
 ## Progress Update
 
 - Built landing page (HTML/CSS)
