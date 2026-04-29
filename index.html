@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,15 +10,16 @@
 </head>
 
 </head>
+
 <body>
 
   <nav class="navbar">
     <div class="logo">♫ Mini Spotify</div>
     <ul class="nav-links">
-      <li>Home</li>
-      <li>Playlists</li>
-      <li>Library</li>
-      <li>About</li>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="playlists.html">Playlists</a></li>
+      <li><a href="app.html">Library</a></li>
+      <li><a href="#about">About</a></li>
     </ul>
   </nav>
 
@@ -28,11 +30,16 @@
         Mini Spotify is a beginner music library project built with code and design in mind.
         Browse songs, organize playlists, and turn a simple Python concept into a polished digital experience.
       </p>
+
+
       <div class="buttons">
         <a href="app.html">
-        <button class="btn btn-primary">Launch App</button>
-       </a>
-        <button class="btn btn-secondary">View Playlists</button>
+          <button class="btn btn-primary">Launch App</button>
+        </a>
+
+        <a href="playlists.html">
+          <button class="btn btn-secondary">View Playlists</button>
+        </a>
       </div>
     </div>
 
@@ -73,32 +80,33 @@
   </section>
 
 
-  <section class="features">
+  <section class="features" id="about">
     <h2 class="section-title">Key Design & Development Takeaways</h2>
     <div class="feature-grid">
       <div class="feature-card">
         <h3>Clean UI</h3>
         <p>Designing this interface helped me think beyond functionality and focus on
-           visual hierarchy, spacing, and readability. I structured the layout using a
-           hero section and card-based components to create a modern, organized music UI, inspired by Spotify.</p>
+          visual hierarchy, spacing, and readability. I structured the layout using a
+          hero section and card-based components to create a modern, organized music UI, inspired by Spotify.</p>
       </div>
       <div class="feature-card">
         <h3>Beginner Friendly</h3>
         <p>Breaking the project into smaller pieces made the development process more
-           manageable. Starting with Python logic, then designing the UI, helped me
-           understand how front-end and back-end components connect in real applications.</p>
+          manageable. Starting with Python logic, then designing the UI, helped me
+          understand how front-end and back-end components connect in real applications.</p>
       </div>
       <div class="feature-card">
         <h3>Expandable</h3>
         <p>This project is designed to scale. The landing page structure allows me to
-           later connect playlist creation, song search, and user interaction using
-           JavaScript and eventually integrate the Python logic with Flask.</p>
+          later connect playlist creation, song search, and user interaction using
+          JavaScript and eventually integrate the Python logic with Flask.</p>
       </div>
     </div>
   </section>
 
-   <footer class="footer">
+  <footer class="footer">
     Built by Isabella Boateng • Mini Spotify Landing Page Concept
   </footer>
 </body>
+
 </html>
